@@ -1,0 +1,60 @@
+﻿.header {
+    display:flex;
+    background-color: #ffffff;
+    float:left;
+    width: calc(100% - 221px);
+    height:60px;
+    border-bottom:1px solid #e5e5e5;
+
+}
+    .header b:first-child {
+        position:absolute;
+        color: #494141;
+        padding-left:24px;
+        margin-top:24px;
+        font-size:14px;
+    }
+    .header .inforacc{
+        display:flex;
+    }
+
+    .header .inforacc b {
+        position: absolute;
+        color: #808080;
+        margin-left: 800px;
+        margin-top: 24px;
+        font-size: 14px;
+        width:130px;
+        height:40px;
+    }
+    .header .inforacc .picacc img {
+       width:40px;
+       height:40px;
+       border-radius:50%;
+       margin-top:12px;
+       margin-left:750px;
+    }
+        .header .inforacc b:hover {
+         
+            color: #162bcf;
+           
+        }
+        .header .inforacc .picacc img:hover {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-top: 0px;
+            margin-left: 740px;
+            transition-duration: 1s;
+        }
+
+
+
+        .header .inforacc .dots {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            margin-top: 24px;
+            margin-left: 940px;
+        }
+

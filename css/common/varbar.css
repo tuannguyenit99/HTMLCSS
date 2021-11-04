@@ -1,0 +1,52 @@
+﻿.navbar {
+    background-color: #ffffff;
+    width: 220px;
+    height: 100vh;
+    border-right: 1px solid #808080;
+    float: left;
+}
+
+.navbar .logo {
+    display:flex;
+    width:220px;
+    height:60px;
+}
+    .navbar .logo .logo1 {
+        width: 100px;
+        height: 30px;
+        margin-top: 24px;
+        margin-left: 18px;
+        margin-right: 1px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('../../content/pic/logo1.png');
+    }
+    .navbar .logo .logo2 {
+        width: 180px;
+        height: 30px;
+        margin-top: 24px;
+        margin-right: 24px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('../../content/pic/logo22.png');
+    }
+    .navbar .nvar-all {
+        width: 100%;
+        background-color: #ffffff;
+     
+    }
+    .navbar .nvar-all .item1 {
+        display: flex;
+        padding-left:24px;
+        height:44px;
+        line-height:44px;
+    }
+        .navbar .nvar-all .item1:hover {
+            background-color: #e5e5e5;
+            cursor: pointer;
+        }
+
+        .navbar .nvar-all .item1 .mot{
+           margin-right:10px;
+           width:20px;
+        }

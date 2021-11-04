@@ -1,0 +1,33 @@
+﻿body{
+    font-family:ProductSans-Regular;
+    
+    font-size:13px;
+}
+@font-face {
+    font-family: 'ProductSans-Bold';
+    src: url('../../content/font/ProductSans-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProductSans-MediumItalic';
+    src: url('../../content/font/ProductSans-MediumItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProductSans-Thin';
+    src: url('../../content/font/ProductSans-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProductSans-ThinItalic';
+    src: url('../../content/font/ProductSans-ThinItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProductSans-Black';
+    src: url('../../content/font/ProductSans-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProductSans-BlackItalic';
+    src: url('../../content/font/ProductSans-BlackItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProductSans-Regular';
+    src: url('../../content/font/ProductSans-Regular.ttf') format('truetype');
+}
