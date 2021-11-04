@@ -1,0 +1,14 @@
+input{
+    padding:  10px 30px;
+    border-radius:4px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+
+}
+.input-search{
+    margin-left: 16px;
+    background-image: url('../../content/pic/search.png');
+    background-repeat: no-repeat;
+    background-position: 3px center ;
+    margin-top: 6px;
+}

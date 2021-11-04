@@ -21,7 +21,7 @@
     .header .inforacc b {
         position: absolute;
         color: #808080;
-        margin-left: 800px;
+        right: 24px;
         margin-top: 24px;
         font-size: 14px;
         width:130px;
@@ -32,7 +32,7 @@
        height:40px;
        border-radius:50%;
        margin-top:12px;
-       margin-left:750px;
+       margin-left:890px;
     }
         .header .inforacc b:hover {
          
@@ -44,7 +44,7 @@
             height: 60px;
             border-radius: 50%;
             margin-top: 0px;
-            margin-left: 740px;
+            margin-left: 880px;
             transition-duration: 1s;
         }
 

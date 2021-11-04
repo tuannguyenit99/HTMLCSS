@@ -6,10 +6,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="../css/common/content.css" rel="stylesheet" />
     <link href="/css/common/header.css" rel="stylesheet" />
+    <link href="/css/common/input.css" rel="stylesheet" />
     <link href="/css/common/main.css" rel="stylesheet" />
     <link href="/css/common/varbar.css" rel="stylesheet" />
     <link href="/css/private/emloyee.css" rel="stylesheet" />
-
+    <script>
+        function load(){
+            location.reload();
+        }
+  </script>
 </head>
 <body>
     <div class="navbar">
@@ -95,11 +100,212 @@
     <div class="content">
 
 
+        <div class="page">
+            <div class="page1">
+                Quản lý lao động
+            </div>
+            <div class="page-add">
+                
+                <button > <i class="fa fa-address-book" aria-hidden="true"></i> Thêm mới </button>
+            </div>
+        </div>
+
+        <div class="filter">
+
+         <div class="fil1">
+           <input class="input-search" placeholder="Tìm kiếm" />
+           
+
+          </div>    
+           <div class="fil2">
+            <select>
+                <option value="1">Tất cả phòng ban</option>
+                <option value="2">Phòng nhân sự</option>
+                <option value="3">Phòng kinh doanh</option>
+                <option value="4">Phòng đào tạo</option>
+            </select>
+         </div>
+          <div class="fil3">
+            <select>
+                <option value="1">Tất cả vị trí</option>
+                <option value="2">Giám đốc</option>
+                <option value="3">Nhân viên</option>
+                <option value="4">Quản lý</option>
+            </select>
+          </div>
+
+          <div class="fil4">
+           
+            <button type="button" onclick="load()"> <i class="fa fa-refresh" aria-hidden="true"></i></button>
+          </div>
+       </div>
+
+       <div class="grid">
+         <table>
+             <thead>
+                 <th>Mã nhân viên</th>
+                 <th>Họ Tên</th>
+                 <th>Giới Tính</th>
+                 <th>Ngày Sinh</th>
+                 <th>Điện Thoại</th>
+                 <th>Chức vụ</th>
+                 <th>Phòng ban</th>
+                 <th>Mức lương</th>
+                 <th>Tình Trạng</th>
+                
+             </thead>
+             <tr>
+                 <td>MV01</td>
+                 <td>Nguyễn Quốc Tuấn</td>
+                 <td>Nam</td>
+                 <td>1/1/1999</td>
+                 <td>0398288581</td>
+                 <td>Nhân Viên</td>
+                 <td>Phòng Sản Xuất</td>
+                 <td>5.000.000</td>
+                 <td>Thử Việc</td>
+
+             </tr>
+             <tr>
+                <td>MV02</td>
+                <td>Nguyễn Thị Hà</td>
+                <td>Nữ</td>
+                <td>1/1/1999</td>
+                <td>0398288581</td>
+                <td>Nhân Viên</td>
+                <td>Phòng Sản Xuất</td>
+                <td>5.000.000</td>
+                <td>Thử Việc</td>
+
+            </tr>
+            <tr>
+                <td>MV03</td>
+                <td>Nguyễn Quốc Tuấn</td>
+                <td>Nam</td>
+                <td>1/1/1999</td>
+                <td>0398288581</td>
+                <td>Nhân Viên</td>
+                <td>Phòng Sản Xuất</td>
+                <td>5.000.000</td>
+                <td>Thử Việc</td>
+
+            </tr>
+            <tr>
+                <td>MV04</td>
+                <td>Nguyễn Quốc Tuấn</td>
+                <td>Nam</td>
+                <td>1/1/1999</td>
+                <td>0398288581</td>
+                <td>Nhân Viên</td>
+                <td>Phòng Sản Xuất</td>
+                <td>5.000.000</td>
+                <td>Thử Việc</td>
+
+            </tr>
+            <tr>
+                <td>MV05</td>
+                <td>Nguyễn Quốc Tuấn</td>
+                <td>Nam</td>
+                <td>1/1/1999</td>
+                <td>0398288581</td>
+                <td>Nhân Viên</td>
+                <td>Phòng Sản Xuất</td>
+                <td>5.000.000</td>
+                <td>Thử Việc</td>
+
+            </tr>
+            <tr>
+                <td>MV06</td>
+                <td>Nguyễn Quốc Tuấn</td>
+                <td>Nam</td>
+                <td>1/1/1999</td>
+                <td>0398288581</td>
+                <td>Nhân Viên</td>
+                <td>Phòng Sản Xuất</td>
+                <td>5.000.000</td>
+                <td>Thử Việc</td>
+
+            </tr>
+            <tr>
+                <td>MV07</td>
+                <td>Nguyễn Quốc Tuấn</td>
+                <td>Nam</td>
+                <td>1/1/1999</td>
+                <td>0398288581</td>
+                <td>Nhân Viên</td>
+                <td>Phòng Sản Xuất</td>
+                <td>5.000.000</td>
+                <td>Thử Việc</td>
+
+            </tr>
+            <tr>
+                <td>MV08</td>
+                <td>Nguyễn Quốc Tuấn</td>
+                <td>Nam</td>
+                <td>1/1/1999</td>
+                <td>0398288581</td>
+                <td>Nhân Viên</td>
+                <td>Phòng Sản Xuất</td>
+                <td>5.000.000</td>
+                <td>Thử Việc</td>
+
+            </tr>
+            <tr>
+                <td>MV09</td>
+                <td>Nguyễn Quốc Tuấn</td>
+                <td>Nam</td>
+                <td>1/1/1999</td>
+                <td>0398288581</td>
+                <td>Nhân Viên</td>
+                <td>Phòng Sản Xuất</td>
+                <td>5.000.000</td>
+                <td>Thử Việc</td>
+
+            </tr>
+            <tr>
+                <td>MV10</td>
+                <td>Nguyễn Quốc Tuấn</td>
+                <td>Nam</td>
+                <td>1/1/1999</td>
+                <td>0398288581</td>
+                <td>Nhân Viên</td>
+                <td>Phòng Sản Xuất</td>
+                <td>5.000.000</td>
+                <td>Thử Việc</td>
+
+            </tr>
+         </table>
+
+
+
+       </div>
+       <div class="pagin-bar">
+
+            <div class="bar-infor">
+             <p>Hiện thị từ 1-10 nhân viên</p>
+            </div>
+            <div class="bar-next">
+                 <button><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></button> 
+                <div class="number-focus">1</div>
+                <div class="number">2</div>
+                <div class="number">3</div>
+                <div class="number">4</div>
+                <button><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button> 
+            </div>
+            <div class="bar-member">
+                10 nhân viên trên/trang
+            </div>
+
+
+
+       </div>
+        </div>
+       
 
 
     </div>
 
-
+  
 
 </body>
 </html>
